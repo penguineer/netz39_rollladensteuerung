@@ -19,13 +19,14 @@
 
 const char* MQTT_HOST 	= "platon";
 const int   MQTT_PORT 	= 1883;
-const char* MQTT_TOPIC 	= "Netz39/Things/Door/Events";
 
-#define MQTT_MSG_MAXLEN		  16
-const char* MQTT_MSG_DOOROPEN   = "door open";
-const char* MQTT_MSG_DOORCLOSE  = "door closed";
-const char* MQTT_MSG_LOCKOPEN   = "door unlocked";
-const char* MQTT_MSG_LOCKCLOSE  = "door locked";
+#define MQTT_TOPIC_MAXLEN		  23
+const char* MQTT_TOPIC_DOOR 	= "Netz39/Things/Door/State";
+const char* MQTT_TOPIC_LOCK 	= "Netz39/Things/Door/Lock";
+
+#define MQTT_MSG_MAXLEN		  6
+const char* MQTT_MSG_OPEN   = "Open";
+const char* MQTT_MSG_CLOSED  = "Closed";
 const char* MQTT_MSG_NONE	= "none";
 
 struct door_status_t {
@@ -204,6 +205,7 @@ int main(int argc, char *argv[]) {
     // TODO error handling
   }
   
+  char mqtt_topic[MQTT_MSG_MAXLEN];
   char mqtt_payload[MQTT_MSG_MAXLEN];
   
   // the known door status
@@ -229,6 +231,7 @@ int main(int argc, char *argv[]) {
     printf("\n");
 
     // Check door status for changes and emit MQTT messages
+    mqtt_topic[0] = 0;
     mqtt_payload[0] = 0;
 
     // door status changed
@@ -236,11 +239,13 @@ int main(int argc, char *argv[]) {
       if (ds.door_closed) {
         syslog(LOG_INFO, "Door has been closed.");
         //MQTT message
-        strcpy(mqtt_payload, MQTT_MSG_DOORCLOSE);
+        strcpy(mqtt_topic, MQTT_TOPIC_DOOR);
+        strcpy(mqtt_payload, MQTT_CLOSED);
       } else {
         syslog(LOG_INFO, "Door has been opened.");
         //MQTT message
-        strcpy(mqtt_payload, MQTT_MSG_DOOROPEN);
+        strcpy(mqtt_topic, MQTT_TOPIC_DOOR);
+        strcpy(mqtt_payload, MQTT_OPEN);
       }
       
       before.door_closed = ds.door_closed;
@@ -251,11 +256,13 @@ int main(int argc, char *argv[]) {
       if (ds.lock_open) {
         syslog(LOG_INFO, "Door has been unlocked.");
         //MQTT message
-        strcpy(mqtt_payload, MQTT_MSG_LOCKOPEN);
+        strcpy(mqtt_topic, MQTT_TOPIC_LOCK);
+        strcpy(mqtt_payload, MQTT_OPEN);
       } else {
         syslog(LOG_INFO, "Door has been locked.");
         //MQTT message
-        strcpy(mqtt_payload, MQTT_MSG_LOCKCLOSE);
+        strcpy(mqtt_topic, MQTT_TOPIC_LOCK);
+        strcpy(mqtt_payload, MQTT_CLOSED);
       }
       
       before.lock_open = ds.lock_open;
@@ -268,7 +275,7 @@ int main(int argc, char *argv[]) {
       ret = mosquitto_publish(
                         mosq, 
                         &mid,
-                        MQTT_TOPIC,
+                        mqtt_topic,
                         strlen(mqtt_payload), mqtt_payload,
                         2, /* qos */
                         true /* retain */
