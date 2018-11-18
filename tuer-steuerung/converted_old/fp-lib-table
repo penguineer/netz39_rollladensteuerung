@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name tuer-steuerung)(type KiCad)(uri "$(KIPRJMOD)/tuer-steuerung.pretty")(options "")(descr ""))
+)

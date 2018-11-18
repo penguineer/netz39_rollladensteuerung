@@ -1,0 +1,1240 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr User 13753 8351
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2200 2100 2700 2100
+Wire Wire Line
+	2700 2100 3500 2100
+Connection ~ 2700 2100
+Text Label 2200 2100 0    10   ~ 0
+VCC
+Wire Wire Line
+	1900 4000 1900 4600
+Wire Wire Line
+	1900 4600 1900 5300
+Wire Wire Line
+	1900 5300 1900 5900
+Wire Wire Line
+	1900 5900 1900 7000
+Wire Wire Line
+	1900 7000 1500 7000
+Wire Wire Line
+	1500 4000 1900 4000
+Wire Wire Line
+	1500 5900 1900 5900
+Wire Wire Line
+	1500 5300 1900 5300
+Wire Wire Line
+	1500 4600 1900 4600
+Connection ~ 1900 5900
+Connection ~ 1900 5300
+Connection ~ 1900 4600
+Text Label 1900 4000 0    10   ~ 0
+VCC
+Wire Wire Line
+	11800 2100 11800 2200
+Wire Wire Line
+	11800 2200 11800 2400
+Wire Wire Line
+	11800 2400 11800 3400
+Wire Wire Line
+	11500 2400 11800 2400
+Wire Wire Line
+	12000 2200 11800 2200
+Wire Wire Line
+	11500 3400 11700 3400
+Wire Wire Line
+	11700 3400 11800 3400
+Wire Wire Line
+	11500 3500 11700 3500
+Wire Wire Line
+	11700 3500 11700 3400
+Connection ~ 11800 2400
+Connection ~ 11800 2200
+Connection ~ 11800 3400
+Connection ~ 11700 3400
+Text Label 11800 2100 0    10   ~ 0
+VCC
+Wire Wire Line
+	5700 5800 5700 5900
+Wire Wire Line
+	5700 5900 5600 5900
+Wire Wire Line
+	5700 5900 5700 6500
+Wire Wire Line
+	5700 6500 5600 6500
+Connection ~ 5700 5900
+Text Label 5700 5800 0    10   ~ 0
+VCC
+Wire Wire Line
+	3000 2300 3500 2300
+Wire Wire Line
+	3000 2800 3000 2500
+Wire Wire Line
+	3000 2500 3000 2400
+Wire Wire Line
+	3000 2300 3000 2400
+Wire Wire Line
+	2500 2400 2700 2400
+Wire Wire Line
+	2700 2400 3000 2400
+Wire Wire Line
+	3500 2500 3000 2500
+Connection ~ 2700 2400
+Connection ~ 3000 2400
+Connection ~ 3000 2500
+Text Label 3000 2300 0    10   ~ 0
+GND
+Wire Wire Line
+	7400 2400 7400 2500
+Wire Wire Line
+	7400 2500 7400 2600
+Wire Wire Line
+	7100 2500 7400 2500
+Connection ~ 7400 2500
+Text Label 7400 2400 0    10   ~ 0
+GND
+Wire Wire Line
+	6600 1100 6600 1300
+Text Label 6600 1100 0    10   ~ 0
+GND
+Wire Wire Line
+	4600 2500 4600 2400
+Wire Wire Line
+	4600 2400 4700 2400
+Text Label 4600 2500 0    10   ~ 0
+GND
+Wire Wire Line
+	6000 2500 6000 2400
+Wire Wire Line
+	6000 2400 5900 2400
+Text Label 6000 2500 0    10   ~ 0
+GND
+Wire Wire Line
+	2600 5100 2800 5100
+Wire Wire Line
+	2800 5100 2800 5800
+Wire Wire Line
+	2800 5800 2800 6400
+Wire Wire Line
+	2800 6400 2800 6900
+Wire Wire Line
+	2600 4500 2800 4500
+Wire Wire Line
+	2800 4500 2800 5100
+Wire Wire Line
+	2600 5800 2800 5800
+Wire Wire Line
+	2600 6400 2800 6400
+Wire Wire Line
+	2200 4400 2200 4500
+Wire Wire Line
+	2200 4500 2600 4500
+Wire Wire Line
+	2200 5000 2200 5100
+Wire Wire Line
+	2600 5100 2200 5100
+Connection ~ 2800 5100
+Connection ~ 2800 5800
+Connection ~ 2800 6400
+Connection ~ 2600 4500
+Connection ~ 2600 5100
+Text Label 2600 5100 0    10   ~ 0
+GND
+Wire Wire Line
+	8000 6400 8300 6400
+Wire Wire Line
+	8300 6400 8600 6400
+Wire Wire Line
+	8600 6400 8900 6400
+Wire Wire Line
+	8900 6400 9400 6400
+Connection ~ 8300 6400
+Connection ~ 8600 6400
+Connection ~ 8900 6400
+Text Label 8000 6400 0    10   ~ 0
+GND
+Wire Wire Line
+	6000 3800 6400 3800
+Wire Wire Line
+	6400 3800 6700 3800
+Wire Wire Line
+	6400 4200 6400 3800
+Connection ~ 6400 3800
+Text Label 6000 3800 0    10   ~ 0
+GND
+Wire Wire Line
+	6300 7100 6300 6400
+Wire Wire Line
+	6300 6400 6500 6400
+Text Label 6300 7100 0    10   ~ 0
+GND
+Wire Wire Line
+	11500 2600 11600 2600
+Wire Wire Line
+	11600 2600 12000 2600
+Wire Wire Line
+	11500 3600 11600 3600
+Wire Wire Line
+	11600 3600 11600 2600
+Wire Wire Line
+	12000 2600 12000 2500
+Wire Wire Line
+	12000 2600 12800 2600
+Wire Wire Line
+	12800 2600 12800 2900
+Wire Wire Line
+	12800 2900 12800 3300
+Wire Wire Line
+	12800 3300 12800 3500
+Wire Wire Line
+	12700 2900 12800 2900
+Wire Wire Line
+	12700 3300 12800 3300
+Connection ~ 11600 2600
+Connection ~ 12000 2600
+Connection ~ 12800 2900
+Connection ~ 12800 3300
+Text Label 11500 2600 0    10   ~ 0
+GND
+Wire Wire Line
+	7400 1600 7600 1600
+Wire Wire Line
+	7600 1600 7600 1100
+Text Label 7600 1600 0    70   ~ 0
+GND
+Wire Wire Line
+	11500 2900 12300 2900
+Wire Wire Line
+	12300 2900 12400 2900
+Connection ~ 12300 2900
+Wire Wire Line
+	12300 3300 12000 3300
+Wire Wire Line
+	12000 3300 12000 3100
+Wire Wire Line
+	12000 3100 11500 3100
+Wire Wire Line
+	12300 3300 12400 3300
+Connection ~ 12300 3300
+Wire Wire Line
+	2200 2700 2500 2700
+Wire Wire Line
+	2500 2700 3500 2700
+Connection ~ 2500 2700
+Text Label 2200 2700 0    10   ~ 0
+VDD
+Wire Wire Line
+	6600 2500 6800 2500
+Wire Wire Line
+	6600 2200 6600 2500
+Connection ~ 6600 2500
+Text Label 6600 2500 0    10   ~ 0
+VDD
+Wire Wire Line
+	7400 2000 7400 2100
+Wire Wire Line
+	7400 1700 7600 1700
+Text Label 7600 1700 0    70   ~ 0
+M_IN1
+Wire Wire Line
+	9600 3600 9300 3600
+Text Label 9300 3600 0    70   ~ 0
+M_IN1
+Wire Wire Line
+	7400 1800 7600 1800
+Text Label 7600 1800 0    70   ~ 0
+M_IN2
+Wire Wire Line
+	9600 3500 9300 3500
+Text Label 9300 3500 0    70   ~ 0
+M_IN2
+Wire Wire Line
+	7400 1900 7600 1900
+Text Label 7600 1900 0    70   ~ 0
+M_EN
+Wire Wire Line
+	9600 3700 9300 3700
+Text Label 9300 3700 0    70   ~ 0
+M_EN
+Wire Wire Line
+	6200 1800 5700 1800
+Wire Wire Line
+	5700 1800 5700 2100
+Wire Wire Line
+	5700 2100 5700 2400
+Wire Wire Line
+	5700 2600 5700 2400
+Wire Wire Line
+	5700 2600 5400 2600
+Wire Wire Line
+	5400 2600 5400 2700
+Connection ~ 5700 2100
+Text Label 5700 2600 3    70   ~ 0
+M_OUT1
+Connection ~ 5700 2400
+Wire Wire Line
+	6200 1700 4900 1700
+Wire Wire Line
+	4900 1700 4900 2100
+Wire Wire Line
+	4900 2100 4900 2400
+Wire Wire Line
+	4900 2400 4900 2600
+Wire Wire Line
+	4900 2600 5300 2600
+Wire Wire Line
+	5300 2600 5300 2700
+Connection ~ 4900 2100
+Text Label 5100 2600 3    70   ~ 0
+M_OUT2
+Connection ~ 4900 2400
+Wire Wire Line
+	5400 2100 5300 2100
+Wire Wire Line
+	6200 1900 6000 1900
+Wire Wire Line
+	6000 1900 6000 2100
+Wire Wire Line
+	6200 1600 4600 1600
+Wire Wire Line
+	4600 1600 4600 2100
+Wire Wire Line
+	1500 4100 2200 4100
+Wire Wire Line
+	2200 4100 2600 4100
+Wire Wire Line
+	2600 4100 3200 4100
+Connection ~ 2600 4100
+Text Label 3200 4100 0    70   ~ 0
+ENDSTOP1
+Connection ~ 2200 4100
+Wire Wire Line
+	9600 2700 9300 2700
+Text Label 9300 2700 0    70   ~ 0
+ENDSTOP1
+Wire Wire Line
+	1500 4700 2200 4700
+Wire Wire Line
+	2200 4700 2600 4700
+Wire Wire Line
+	2600 4700 3200 4700
+Connection ~ 2600 4700
+Text Label 3200 4700 0    70   ~ 0
+ENDSTOP2
+Connection ~ 2200 4700
+Wire Wire Line
+	9600 2600 9300 2600
+Text Label 9300 2600 0    70   ~ 0
+ENDSTOP2
+Wire Wire Line
+	1500 5400 2600 5400
+Wire Wire Line
+	2600 5400 3200 5400
+Text Label 3200 5400 0    70   ~ 0
+DOORSTATE
+Connection ~ 2600 5400
+Wire Wire Line
+	9600 3800 9300 3800
+Text Label 9300 3800 0    70   ~ 0
+DOORSTATE
+Wire Wire Line
+	9100 5500 8700 5500
+Wire Wire Line
+	8700 5500 8400 5500
+Wire Wire Line
+	8300 6100 8300 6000
+Wire Wire Line
+	8300 6000 8700 6000
+Wire Wire Line
+	8700 6000 8700 5500
+Text Label 8400 5500 0    70   ~ 0
+DOORSTATE
+Connection ~ 8700 5500
+Wire Wire Line
+	2600 6000 3200 6000
+Wire Wire Line
+	1500 6000 2600 6000
+Text Label 3200 6000 0    70   ~ 0
+LOCKSTATE
+Connection ~ 2600 6000
+Wire Wire Line
+	6000 4800 6400 4800
+Wire Wire Line
+	6400 4800 6400 4400
+Wire Wire Line
+	6400 4800 6600 4800
+Connection ~ 6400 4800
+Text Label 6600 4800 0    70   ~ 0
+LOCKSTATE
+Wire Wire Line
+	9100 5400 8600 5400
+Wire Wire Line
+	8600 5400 8400 5400
+Wire Wire Line
+	8000 6100 8000 5900
+Wire Wire Line
+	8000 5900 8600 5900
+Wire Wire Line
+	8600 5900 8600 5400
+Text Label 8400 5400 0    70   ~ 0
+LOCKSTATE
+Connection ~ 8600 5400
+Wire Wire Line
+	9600 2000 9400 2000
+Text Label 9400 2000 0    70   ~ 0
+LOCKSTATE
+Wire Wire Line
+	11800 3800 12000 3800
+Wire Wire Line
+	11800 3800 11500 3800
+Text Label 12000 3800 0    70   ~ 0
+RST
+Connection ~ 11800 3800
+Wire Wire Line
+	11700 5800 12000 5800
+Text Label 11700 5800 0    10   ~ 0
+RST
+Wire Wire Line
+	9600 1500 9400 1500
+Text Label 9400 1500 0    70   ~ 0
+SCK
+Wire Wire Line
+	11700 5200 12000 5200
+Text Label 11700 5200 0    10   ~ 0
+SCK
+Wire Wire Line
+	9600 1600 9400 1600
+Text Label 9400 1600 0    70   ~ 0
+MISO
+Wire Wire Line
+	11700 5400 12000 5400
+Text Label 11700 5400 0    10   ~ 0
+MISO
+Wire Wire Line
+	9600 1700 9400 1700
+Text Label 9400 1700 0    70   ~ 0
+MOSI
+Wire Wire Line
+	11700 5600 12000 5600
+Text Label 11700 5600 0    10   ~ 0
+MOSI
+Wire Wire Line
+	8900 5700 8400 5700
+Wire Wire Line
+	8900 6100 8900 5700
+Wire Wire Line
+	8900 5700 9100 5700
+Text Label 8400 5700 0    70   ~ 0
+SET_OPEN
+Connection ~ 8900 5700
+Wire Wire Line
+	9600 3300 9300 3300
+Text Label 9300 3300 0    70   ~ 0
+SET_OPEN
+Wire Wire Line
+	9600 3400 9300 3400
+Text Label 9300 3400 0    70   ~ 0
+SET_CLOSE
+Wire Wire Line
+	9100 5600 8800 5600
+Wire Wire Line
+	8800 5600 8400 5600
+Wire Wire Line
+	8600 6100 8800 6100
+Wire Wire Line
+	8800 6100 8800 5600
+Text Label 8400 5600 0    70   ~ 0
+SET_CLOSE
+Connection ~ 8800 5600
+Wire Wire Line
+	4900 3900 4900 4100
+Wire Wire Line
+	4900 3900 5500 3900
+Wire Wire Line
+	4900 4100 4700 4100
+Wire Wire Line
+	4900 4700 4900 4200
+Wire Wire Line
+	4900 4700 5500 4700
+Wire Wire Line
+	4900 4200 4700 4200
+Wire Wire Line
+	4900 6100 4800 6100
+Text Label 4800 6100 0    70   ~ 0
+LED_G
+Wire Wire Line
+	9600 1800 9400 1800
+Text Label 9400 1800 0    70   ~ 0
+LED_G
+Wire Wire Line
+	4900 6700 4800 6700
+Text Label 4800 6700 0    70   ~ 0
+LED_R
+Wire Wire Line
+	9600 1900 9400 1900
+Text Label 9400 1900 0    70   ~ 0
+LED_R
+Wire Wire Line
+	5300 6100 5400 6100
+Wire Wire Line
+	5300 6700 5400 6700
+Wire Wire Line
+	5600 6300 6500 6300
+Wire Wire Line
+	6200 6900 6200 6500
+Wire Wire Line
+	6200 6500 6500 6500
+Wire Wire Line
+	5600 6900 6200 6900
+Wire Wire Line
+	8600 2800 9600 2800
+Wire Wire Line
+	8900 2900 9600 2900
+$Comp
+L tuer-steuerung-eagle-import:GND #GND04
+U 1 0 4B4BE4C0D896219B
+P 3000 2900
+F 0 "#GND04" H 3000 2900 50  0001 C CNN
+F 1 "GND" H 2900 2800 59  0000 L BNN
+F 2 "" H 3000 2900 50  0001 C CNN
+F 3 "" H 3000 2900 50  0001 C CNN
+	1    3000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:VCC #SUPPLY06
+U 1 0 5AE663DFC21E2EB3
+P 2100 2100
+F 0 "#SUPPLY06" H 2100 2100 50  0001 C CNN
+F 1 "VCC" H 2025 2225 59  0000 L BNN
+F 2 "" H 2100 2100 50  0001 C CNN
+F 3 "" H 2100 2100 50  0001 C CNN
+	1    2100 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:PSW_5 U$1
+U 1 0 850A8AB0BABD3B23
+P 3500 2400
+F 0 "U$1" H 3500 2400 50  0001 C CNN
+F 1 "PSW_5" H 3500 2400 50  0001 C CNN
+F 2 "tuer-steuerung:PSW_5" H 3500 2400 50  0001 C CNN
+F 3 "" H 3500 2400 50  0001 C CNN
+	1    3500 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:L6203 IC1
+U 1 0 7C8C299E06F92037
+P 6800 1800
+F 0 "IC1" H 6300 2150 59  0000 L BNN
+F 1 "L6203" H 6300 1300 59  0000 L BNN
+F 2 "tuer-steuerung:MULTIWATT-11" H 6800 1800 50  0001 C CNN
+F 3 "" H 6800 1800 50  0001 C CNN
+	1    6800 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:MEGA8-P IC2
+U 1 0 53D52AEB541775CA
+P 10600 2700
+F 0 "IC2" H 9900 1300 59  0000 L BNN
+F 1 "MEGA8-P" H 9900 3950 59  0000 L BNN
+F 2 "tuer-steuerung:DIL28-3" H 10600 2700 50  0001 C CNN
+F 3 "" H 10600 2700 50  0001 C CNN
+	1    10600 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:XTAL_S Q1
+U 1 0 B906740D0BCEEB23
+P 12300 3100
+F 0 "Q1" H 12100 3250 59  0000 L BNN
+F 1 "16Mhz" H 12100 2900 59  0000 L BNN
+F 2 "tuer-steuerung:QS" H 12300 3100 50  0001 C CNN
+F 3 "" H 12300 3100 50  0001 C CNN
+	1    12300 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:SCHOTTKY-DIODEDO35-7 D1
+U 1 0 C245A130418565EC
+P 5800 2400
+F 0 "D1" H 5710 2475 59  0000 L BNN
+F 1 "BS170" H 5710 2265 59  0000 L BNN
+F 2 "tuer-steuerung:DO35-7" H 5800 2400 50  0001 C CNN
+F 3 "" H 5800 2400 50  0001 C CNN
+	1    5800 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:SCHOTTKY-DIODEDO35-7 D2
+U 1 0 305DC42EECD6F5AB
+P 4800 2400
+F 0 "D2" H 4710 2475 59  0000 L BNN
+F 1 "BS170" H 4710 2265 59  0000 L BNN
+F 2 "tuer-steuerung:DO35-7" H 4800 2400 50  0001 C CNN
+F 3 "" H 4800 2400 50  0001 C CNN
+	1    4800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:GND #GND01
+U 1 0 6F68935FDB8695AC
+P 7400 2700
+F 0 "#GND01" H 7400 2700 50  0001 C CNN
+F 1 "GND" H 7300 2600 59  0000 L BNN
+F 2 "" H 7400 2700 50  0001 C CNN
+F 3 "" H 7400 2700 50  0001 C CNN
+	1    7400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:VDD #SUPPLY01
+U 1 0 57B2A199E46721A6
+P 2100 2700
+F 0 "#SUPPLY01" H 2100 2700 50  0001 C CNN
+F 1 "VDD" H 2025 2825 59  0000 L BNN
+F 2 "" H 2100 2700 50  0001 C CNN
+F 3 "" H 2100 2700 50  0001 C CNN
+	1    2100 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:VDD #SUPPLY02
+U 1 0 484E0C833EFDB7C
+P 6600 2600
+F 0 "#SUPPLY02" H 6600 2600 50  0001 C CNN
+F 1 "VDD" H 6525 2725 59  0000 L BNN
+F 2 "" H 6600 2600 50  0001 C CNN
+F 3 "" H 6600 2600 50  0001 C CNN
+	1    6600 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:VCC #SUPPLY03
+U 1 0 C23B2A6DD5692080
+P 1400 7000
+F 0 "#SUPPLY03" H 1400 7000 50  0001 C CNN
+F 1 "VCC" H 1325 7125 59  0000 L BNN
+F 2 "" H 1400 7000 50  0001 C CNN
+F 3 "" H 1400 7000 50  0001 C CNN
+	1    1400 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:C-EU025-024X044 C2
+U 1 0 DE3531F169098DAB
+P 6900 2500
+F 0 "C2" H 6960 2515 59  0000 L BNN
+F 1 "100n" H 6960 2315 59  0000 L BNN
+F 2 "tuer-steuerung:C025-024X044" H 6900 2500 50  0001 C CNN
+F 3 "" H 6900 2500 50  0001 C CNN
+	1    6900 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:C-EU025-024X044 C1
+U 1 0 A421DAD9328B9062
+P 7400 2200
+F 0 "C1" H 7460 2215 59  0000 L BNN
+F 1 "220n" H 7460 2015 59  0000 L BNN
+F 2 "tuer-steuerung:C025-024X044" H 7400 2200 50  0001 C CNN
+F 3 "" H 7400 2200 50  0001 C CNN
+	1    7400 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:GND #GND03
+U 1 0 21A7002F7679BDCC
+P 6600 1000
+F 0 "#GND03" H 6600 1000 50  0001 C CNN
+F 1 "GND" H 6500 900 59  0000 L BNN
+F 2 "" H 6600 1000 50  0001 C CNN
+F 3 "" H 6600 1000 50  0001 C CNN
+	1    6600 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:C-EU025-024X044 C3
+U 1 0 8549B003AD21CF95
+P 5500 2100
+F 0 "C3" H 5560 2115 59  0000 L BNN
+F 1 "22n" H 5560 1915 59  0000 L BNN
+F 2 "tuer-steuerung:C025-024X044" H 5500 2100 50  0001 C CNN
+F 3 "" H 5500 2100 50  0001 C CNN
+	1    5500 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:R-EU_0207_5V R1
+U 1 0 B8E1D68D8C24140D
+P 5100 2100
+F 0 "R1" H 4950 2159 59  0000 L BNN
+F 1 "10R" H 4950 1970 59  0000 L BNN
+F 2 "tuer-steuerung:0207_5V" H 5100 2100 50  0001 C CNN
+F 3 "" H 5100 2100 50  0001 C CNN
+	1    5100 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:C-EU025-024X044 C4
+U 1 0 19F366271F43E891
+P 5800 2100
+F 0 "C4" H 5860 2115 59  0000 L BNN
+F 1 "15n" H 5860 1915 59  0000 L BNN
+F 2 "tuer-steuerung:C025-024X044" H 5800 2100 50  0001 C CNN
+F 3 "" H 5800 2100 50  0001 C CNN
+	1    5800 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:C-EU050-024X044 C5
+U 1 0 DA19E289CE1DC234
+P 4700 2100
+F 0 "C5" H 4760 2115 59  0000 L BNN
+F 1 "15n" H 4760 1915 59  0000 L BNN
+F 2 "tuer-steuerung:C050-024X044" H 4700 2100 50  0001 C CNN
+F 3 "" H 4700 2100 50  0001 C CNN
+	1    4700 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:GND #GND06
+U 1 0 714A278CA07C0193
+P 4600 2600
+F 0 "#GND06" H 4600 2600 50  0001 C CNN
+F 1 "GND" H 4500 2500 59  0000 L BNN
+F 2 "" H 4600 2600 50  0001 C CNN
+F 3 "" H 4600 2600 50  0001 C CNN
+	1    4600 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:GND #GND07
+U 1 0 C51381239CDE76EF
+P 6000 2600
+F 0 "#GND07" H 6000 2600 50  0001 C CNN
+F 1 "GND" H 5900 2500 59  0000 L BNN
+F 2 "" H 6000 2600 50  0001 C CNN
+F 3 "" H 6000 2600 50  0001 C CNN
+	1    6000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:R-EU_0204_5 R2
+U 1 0 9599DC97748ED202
+P 11800 3600
+F 0 "R2" H 11650 3659 59  0000 L BNN
+F 1 "10K" H 11650 3470 59  0000 L BNN
+F 2 "tuer-steuerung:0204_5" H 11800 3600 50  0001 C CNN
+F 3 "" H 11800 3600 50  0001 C CNN
+	1    11800 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:VCC #SUPPLY05
+U 1 0 FDA4F4BDFD320F9F
+P 11800 2000
+F 0 "#SUPPLY05" H 11800 2000 50  0001 C CNN
+F 1 "VCC" H 11725 2125 59  0000 L BNN
+F 2 "" H 11800 2000 50  0001 C CNN
+F 3 "" H 11800 2000 50  0001 C CNN
+	1    11800 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:R-EU_0204_5 R3
+U 1 0 6E8B8171D33015C9
+P 2600 4300
+F 0 "R3" H 2450 4359 59  0000 L BNN
+F 1 "10K" H 2450 4170 59  0000 L BNN
+F 2 "tuer-steuerung:0204_5" H 2600 4300 50  0001 C CNN
+F 3 "" H 2600 4300 50  0001 C CNN
+	1    2600 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:R-EU_0204_5 R4
+U 1 0 924A67826DEE1610
+P 2600 4900
+F 0 "R4" H 2450 4959 59  0000 L BNN
+F 1 "10K" H 2450 4770 59  0000 L BNN
+F 2 "tuer-steuerung:0204_5" H 2600 4900 50  0001 C CNN
+F 3 "" H 2600 4900 50  0001 C CNN
+	1    2600 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:GND #GND05
+U 1 0 D2D9FA1DEF27308A
+P 2800 7000
+F 0 "#GND05" H 2800 7000 50  0001 C CNN
+F 1 "GND" H 2700 6900 59  0000 L BNN
+F 2 "" H 2800 7000 50  0001 C CNN
+F 3 "" H 2800 7000 50  0001 C CNN
+	1    2800 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:R-EU_0204_5 R5
+U 1 0 2AA8A3DBF256FF88
+P 2600 5600
+F 0 "R5" H 2450 5659 59  0000 L BNN
+F 1 "10K" H 2450 5470 59  0000 L BNN
+F 2 "tuer-steuerung:0204_5" H 2600 5600 50  0001 C CNN
+F 3 "" H 2600 5600 50  0001 C CNN
+	1    2600 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:R-EU_0204_5 R6
+U 1 0 9666F1463D5FDD5
+P 2600 6200
+F 0 "R6" H 2450 6259 59  0000 L BNN
+F 1 "10K" H 2450 6070 59  0000 L BNN
+F 2 "tuer-steuerung:0204_5" H 2600 6200 50  0001 C CNN
+F 3 "" H 2600 6200 50  0001 C CNN
+	1    2600 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:SIL05-1A72 U$2
+U 1 0 AA898CC2A8B04D1A
+P 5400 4200
+F 0 "U$2" H 5400 4200 50  0001 C CNN
+F 1 "SIL05-1A72" H 5400 4200 50  0001 C CNN
+F 2 "tuer-steuerung:SIL05-1A72" H 5400 4200 50  0001 C CNN
+F 3 "" H 5400 4200 50  0001 C CNN
+	1    5400 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:1N4148DO35-7 D3
+U 1 0 40D44ED439967F7A
+P 6400 4300
+F 0 "D3" H 6500 4319 59  0000 L BNN
+F 1 "1N4148DO35-7" H 6500 4209 59  0000 L BNN
+F 2 "tuer-steuerung:DO35-7" H 6400 4300 50  0001 C CNN
+F 3 "" H 6400 4300 50  0001 C CNN
+	1    6400 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:GND #GND09
+U 1 0 92D8EA4928DF91D
+P 6700 3900
+F 0 "#GND09" H 6700 3900 50  0001 C CNN
+F 1 "GND" H 6600 3800 59  0000 L BNN
+F 2 "" H 6700 3900 50  0001 C CNN
+F 3 "" H 6700 3900 50  0001 C CNN
+	1    6700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:BC337 T1
+U 1 0 ABD6C2FC011D2A96
+P 5500 6100
+F 0 "T1" H 5100 6400 59  0000 L BNN
+F 1 "BC337" H 5100 6300 59  0000 L BNN
+F 2 "tuer-steuerung:TO92" H 5500 6100 50  0001 C CNN
+F 3 "" H 5500 6100 50  0001 C CNN
+	1    5500 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:BC337 T2
+U 1 0 778EB5B89E4548F9
+P 5500 6700
+F 0 "T2" H 5100 7000 59  0000 L BNN
+F 1 "BC337" H 5100 6900 59  0000 L BNN
+F 2 "tuer-steuerung:TO92" H 5500 6700 50  0001 C CNN
+F 3 "" H 5500 6700 50  0001 C CNN
+	1    5500 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:R-EU_0204_5 R7
+U 1 0 C9B405DD6C780596
+P 5100 6100
+F 0 "R7" H 4950 6159 59  0000 L BNN
+F 1 "1,5K" H 4950 5970 59  0000 L BNN
+F 2 "tuer-steuerung:0204_5" H 5100 6100 50  0001 C CNN
+F 3 "" H 5100 6100 50  0001 C CNN
+	1    5100 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:R-EU_0204_5 R8
+U 1 0 B76778EE41A952CE
+P 5100 6700
+F 0 "R8" H 4950 6759 59  0000 L BNN
+F 1 "1,5K" H 4950 6570 59  0000 L BNN
+F 2 "tuer-steuerung:0204_5" H 5100 6700 50  0001 C CNN
+F 3 "" H 5100 6700 50  0001 C CNN
+	1    5100 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:GND #GND010
+U 1 0 F47101845C69E3
+P 6300 7200
+F 0 "#GND010" H 6300 7200 50  0001 C CNN
+F 1 "GND" H 6200 7100 59  0000 L BNN
+F 2 "" H 6300 7200 50  0001 C CNN
+F 3 "" H 6300 7200 50  0001 C CNN
+	1    6300 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:C-EU050-025X075 C6
+U 1 0 D846812C9929EB84
+P 12500 2900
+F 0 "C6" H 12560 2915 59  0000 L BNN
+F 1 "12p" H 12560 2715 59  0000 L BNN
+F 2 "tuer-steuerung:C050-025X075" H 12500 2900 50  0001 C CNN
+F 3 "" H 12500 2900 50  0001 C CNN
+	1    12500 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:C-EU050-025X075 C7
+U 1 0 92E7F9B9DEADFD53
+P 12500 3300
+F 0 "C7" H 12560 3315 59  0000 L BNN
+F 1 "12p" H 12560 3115 59  0000 L BNN
+F 2 "tuer-steuerung:C050-025X075" H 12500 3300 50  0001 C CNN
+F 3 "" H 12500 3300 50  0001 C CNN
+	1    12500 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:GND #GND02
+U 1 0 350FEA2913A376EC
+P 12800 3600
+F 0 "#GND02" H 12800 3600 50  0001 C CNN
+F 1 "GND" H 12700 3500 59  0000 L BNN
+F 2 "" H 12800 3600 50  0001 C CNN
+F 3 "" H 12800 3600 50  0001 C CNN
+	1    12800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:C-EU025-024X044 C8
+U 1 0 61919A92621C301E
+P 12000 2300
+F 0 "C8" H 12060 2315 59  0000 L BNN
+F 1 "100n" H 12060 2115 59  0000 L BNN
+F 2 "tuer-steuerung:C025-024X044" H 12000 2300 50  0001 C CNN
+F 3 "" H 12000 2300 50  0001 C CNN
+	1    12000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:CPOL-EUTAP5-80 C9
+U 1 0 8A0374439A6199A8
+P 2700 2200
+F 0 "C9" H 2745 2219 59  0000 L BNN
+F 1 "470u" H 2745 2019 59  0000 L BNN
+F 2 "tuer-steuerung:TAP5-80" H 2700 2200 50  0001 C CNN
+F 3 "" H 2700 2200 50  0001 C CNN
+	1    2700 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:CPOL-EUTAP5-80 C10
+U 1 0 C40B791902121CA7
+P 2500 2600
+F 0 "C10" H 2545 2619 59  0000 L BNN
+F 1 "470u" H 2545 2419 59  0000 L BNN
+F 2 "tuer-steuerung:TAP5-80" H 2500 2600 50  0001 C CNN
+F 3 "" H 2500 2600 50  0001 C CNN
+	1    2500 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:C-EU025-024X044 C11
+U 1 0 4294215059663956
+P 8000 6300
+F 0 "C11" H 8060 6315 59  0000 L BNN
+F 1 "100n" H 8060 6115 59  0000 L BNN
+F 2 "tuer-steuerung:C025-024X044" H 8000 6300 50  0001 C CNN
+F 3 "" H 8000 6300 50  0001 C CNN
+	1    8000 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:C-EU025-024X044 C12
+U 1 0 252ACA035225900B
+P 8300 6300
+F 0 "C12" H 8360 6315 59  0000 L BNN
+F 1 "100n" H 8360 6115 59  0000 L BNN
+F 2 "tuer-steuerung:C025-024X044" H 8300 6300 50  0001 C CNN
+F 3 "" H 8300 6300 50  0001 C CNN
+	1    8300 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:C-EU025-024X044 C13
+U 1 0 2958F4AE9AFB8C1C
+P 8600 6300
+F 0 "C13" H 8660 6315 59  0000 L BNN
+F 1 "100n" H 8660 6115 59  0000 L BNN
+F 2 "tuer-steuerung:C025-024X044" H 8600 6300 50  0001 C CNN
+F 3 "" H 8600 6300 50  0001 C CNN
+	1    8600 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:C-EU025-024X044 C14
+U 1 0 B686F7E37E2E4EF0
+P 8900 6300
+F 0 "C14" H 8960 6315 59  0000 L BNN
+F 1 "100n" H 8960 6115 59  0000 L BNN
+F 2 "tuer-steuerung:C025-024X044" H 8900 6300 50  0001 C CNN
+F 3 "" H 8900 6300 50  0001 C CNN
+	1    8900 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:GND #GND011
+U 1 0 25F2C17319DA8D48
+P 9400 6500
+F 0 "#GND011" H 9400 6500 50  0001 C CNN
+F 1 "GND" H 9300 6400 59  0000 L BNN
+F 2 "" H 9400 6500 50  0001 C CNN
+F 3 "" H 9400 6500 50  0001 C CNN
+	1    9400 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:C-EU025-024X044 C15
+U 1 0 93AE8ABD9DEF2EB6
+P 2200 4300
+F 0 "C15" H 2260 4315 59  0000 L BNN
+F 1 "100n" H 2260 4115 59  0000 L BNN
+F 2 "tuer-steuerung:C025-024X044" H 2200 4300 50  0001 C CNN
+F 3 "" H 2200 4300 50  0001 C CNN
+	1    2200 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:C-EU025-024X044 C16
+U 1 0 56DC4573E207C13D
+P 2200 4900
+F 0 "C16" H 2260 4915 59  0000 L BNN
+F 1 "100n" H 2260 4715 59  0000 L BNN
+F 2 "tuer-steuerung:C025-024X044" H 2200 4900 50  0001 C CNN
+F 3 "" H 2200 4900 50  0001 C CNN
+	1    2200 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:VCC #SUPPLY04
+U 1 0 5EA88E956DF68C43
+P 5700 5700
+F 0 "#SUPPLY04" H 5700 5700 50  0001 C CNN
+F 1 "VCC" H 5625 5825 59  0000 L BNN
+F 2 "" H 5700 5700 50  0001 C CNN
+F 3 "" H 5700 5700 50  0001 C CNN
+	1    5700 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:AVR_ISP U$3
+U 1 0 93CD699454307519
+P 11600 5500
+F 0 "U$3" H 11600 5500 50  0001 C CNN
+F 1 "AVR_ISP" H 11600 5500 50  0001 C CNN
+F 2 "tuer-steuerung:AVR_ISP" H 11600 5500 50  0001 C CNN
+F 3 "" H 11600 5500 50  0001 C CNN
+	1    11600 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:1,6_0,9 TX1
+U 1 0 9BAE49A4B182852C
+P 8500 2800
+F 0 "TX1" H 8455 2873 59  0000 L BNN
+F 1 "1,6_0,9" H 8455 2670 59  0000 L BNN
+F 2 "tuer-steuerung:1,6_0,9" H 8500 2800 50  0001 C CNN
+F 3 "" H 8500 2800 50  0001 C CNN
+	1    8500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:1,6_0,9 RX1
+U 1 0 1EBD516265F7F9DA
+P 8800 2900
+F 0 "RX1" H 8755 2973 59  0000 L BNN
+F 1 "1,6_0,9" H 8755 2770 59  0000 L BNN
+F 2 "tuer-steuerung:1,6_0,9" H 8800 2900 50  0001 C CNN
+F 3 "" H 8800 2900 50  0001 C CNN
+	1    8800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:RIACON_101_2 ENDSTOP1
+U 1 0 95BFBF1795AEF04A
+P 1300 4100
+F 0 "ENDSTOP1" H 1300 4100 50  0001 C CNN
+F 1 "RIACON_101_2" H 1300 4100 50  0001 C CNN
+F 2 "tuer-steuerung:RIACON_101_2" H 1300 4100 50  0001 C CNN
+F 3 "" H 1300 4100 50  0001 C CNN
+	1    1300 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:RIACON_101_2 ENDSTOP2
+U 1 0 B2B695B1B19254F0
+P 1300 4700
+F 0 "ENDSTOP2" H 1300 4700 50  0001 C CNN
+F 1 "RIACON_101_2" H 1300 4700 50  0001 C CNN
+F 2 "tuer-steuerung:RIACON_101_2" H 1300 4700 50  0001 C CNN
+F 3 "" H 1300 4700 50  0001 C CNN
+	1    1300 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:RIACON_101_2 DOORSTATE1
+U 1 0 7BA39003AF00AAFC
+P 1300 5400
+F 0 "DOORSTATE1" H 1300 5400 50  0001 C CNN
+F 1 "RIACON_101_2" H 1300 5400 50  0001 C CNN
+F 2 "tuer-steuerung:RIACON_101_2" H 1300 5400 50  0001 C CNN
+F 3 "" H 1300 5400 50  0001 C CNN
+	1    1300 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:RIACON_101_2 LOCKSTATE1
+U 1 0 96BD460AB52341E8
+P 1300 6000
+F 0 "LOCKSTATE1" H 1300 6000 50  0001 C CNN
+F 1 "RIACON_101_2" H 1300 6000 50  0001 C CNN
+F 2 "tuer-steuerung:RIACON_101_2" H 1300 6000 50  0001 C CNN
+F 3 "" H 1300 6000 50  0001 C CNN
+	1    1300 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:RIACON_101_2 MOTOR1
+U 1 0 7D09A4F000A41028
+P 5400 2900
+F 0 "MOTOR1" H 5400 2900 50  0001 C CNN
+F 1 "RIACON_101_2" H 5400 2900 50  0001 C CNN
+F 2 "tuer-steuerung:RIACON_101_2" H 5400 2900 50  0001 C CNN
+F 3 "" H 5400 2900 50  0001 C CNN
+	1    5400 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:RIACON_101_2 NERDSTERN1
+U 1 0 A842205BD19A793F
+P 4500 4200
+F 0 "NERDSTERN1" H 4500 4200 50  0001 C CNN
+F 1 "RIACON_101_2" H 4500 4200 50  0001 C CNN
+F 2 "tuer-steuerung:RIACON_101_2" H 4500 4200 50  0001 C CNN
+F 3 "" H 4500 4200 50  0001 C CNN
+	1    4500 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:GND #GND08
+U 1 0 167E2C6ADF24F9E8
+P 7600 1000
+F 0 "#GND08" H 7600 1000 50  0001 C CNN
+F 1 "GND" H 7500 900 59  0000 L BNN
+F 2 "" H 7600 1000 50  0001 C CNN
+F 3 "" H 7600 1000 50  0001 C CNN
+	1    7600 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:RIACON_101_3 U$4
+U 1 0 4E25407E84E86E02
+P 6700 6400
+F 0 "U$4" H 6700 6400 50  0001 C CNN
+F 1 "RIACON_101_3" H 6700 6400 50  0001 C CNN
+F 2 "tuer-steuerung:RIACON_101_3" H 6700 6400 50  0001 C CNN
+F 3 "" H 6700 6400 50  0001 C CNN
+	1    6700 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L tuer-steuerung-eagle-import:RIACON_101_4 U$5
+U 1 0 1A1EF776A689A17
+P 9300 5600
+F 0 "U$5" H 9300 5600 50  0001 C CNN
+F 1 "RIACON_101_4" H 9300 5600 50  0001 C CNN
+F 2 "tuer-steuerung:RIACON_101_4" H 9300 5600 50  0001 C CNN
+F 3 "" H 9300 5600 50  0001 C CNN
+	1    9300 5600
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4300 5400 7200 5400
+Wire Notes Line
+	7200 5400 7200 7500
+Wire Notes Line
+	7200 7500 4300 7500
+Wire Notes Line
+	4300 7500 4300 5400
+Wire Notes Line
+	4300 3400 7200 3400
+Wire Notes Line
+	7200 3400 7200 5200
+Wire Notes Line
+	7200 5200 4300 5200
+Wire Notes Line
+	4300 5200 4300 3400
+Wire Notes Line
+	4300 3200 8300 3200
+Wire Notes Line
+	8300 3200 8300 700 
+Wire Notes Line
+	8300 700  4300 700 
+Wire Notes Line
+	4300 700  4300 3200
+Wire Notes Line
+	8500 700  12900 700 
+Wire Notes Line
+	12900 700  12900 4700
+Wire Notes Line
+	12900 4700 8500 4700
+Wire Notes Line
+	8500 4700 8500 700 
+Wire Notes Line
+	4100 3400 700  3400
+Wire Notes Line
+	700  3400 700  7500
+Wire Notes Line
+	700  7500 4100 7500
+Wire Notes Line
+	4100 7500 4100 3400
+Wire Notes Line
+	4100 3200 1700 3200
+Wire Notes Line
+	1700 3200 1700 1700
+Wire Notes Line
+	1700 1700 4100 1700
+Wire Notes Line
+	4100 1700 4100 3200
+Text GLabel 11300 5900 0    10   BiDi ~ 0
+GND
+Text GLabel 11300 5100 0    10   BiDi ~ 0
+VCC
+$EndSCHEMATC

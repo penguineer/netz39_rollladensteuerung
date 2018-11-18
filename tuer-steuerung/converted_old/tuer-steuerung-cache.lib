@@ -1,0 +1,448 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# tuer-steuerung-eagle-import_1,6_0,9
+#
+DEF tuer-steuerung-eagle-import_1,6_0,9 PAD 0 40 Y Y 1 L N
+F0 "PAD" -45 73 59 H V L BNN
+F1 "tuer-steuerung-eagle-import_1,6_0,9" -45 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -40 -40 40 40 N
+P 2 1 0 0 -40 40 40 -40 N
+X P 1 100 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# tuer-steuerung-eagle-import_1N4148DO35-7
+#
+DEF tuer-steuerung-eagle-import_1N4148DO35-7 D 0 40 Y Y 1 L N
+F0 "D" 100 19 59 H V L BNN
+F1 "tuer-steuerung-eagle-import_1N4148DO35-7" 100 -91 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -50 -50 50 0 N
+P 2 1 0 0 -50 50 -50 -50 N
+P 2 1 0 0 50 0 -50 50 N
+P 2 1 0 0 50 0 50 -50 N
+P 2 1 0 0 50 50 50 0 N
+X A A -100 0 100 R 0 0 1 0 P
+X C C 100 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# tuer-steuerung-eagle-import_AVR_ISP
+#
+DEF ~tuer-steuerung-eagle-import_AVR_ISP ~ 0 40 Y Y 1 L N
+F0 "" 0 0 50 H I C CNN
+F1 "tuer-steuerung-eagle-import_AVR_ISP" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -500 -400 -500 400 N
+P 2 1 0 0 -500 400 -100 400 N
+P 2 1 0 0 -100 -400 -500 -400 N
+P 2 1 0 0 -100 400 -100 -400 N
+X GND GND -300 -400 0 U 0 0 1 0 W
+X MISO MISO 100 100 200 L 50 50 1 0 U
+X MOSI MOSI 100 -100 200 L 50 50 1 0 U
+X RST RST 100 -300 200 L 50 50 1 0 U
+X SCK SCK 100 300 200 L 50 50 1 0 U
+X VCC VCC -300 400 0 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# tuer-steuerung-eagle-import_BC337
+#
+DEF tuer-steuerung-eagle-import_BC337 T 0 40 Y Y 1 L N
+F0 "T" -400 300 59 H V L BNN
+F1 "tuer-steuerung-eagle-import_BC337" -400 200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -10 -100 20 100 1 0 0 F
+P 2 1 0 0 50 -100 70 -60 N
+P 2 1 0 0 60 -95 90 -95 N
+P 2 1 0 0 60 -90 75 -90 N
+P 2 1 0 0 60 -80 12 -56 N
+P 2 1 0 0 70 -70 60 -90 N
+P 2 1 0 0 70 -60 100 -100 N
+P 2 1 0 0 75 -90 70 -80 N
+P 2 1 0 0 90 -95 70 -70 N
+P 2 1 0 0 100 -100 50 -100 N
+P 2 1 0 0 100 100 20 60 N
+X E 1 100 -200 100 U 0 0 1 0 P
+X B 2 -100 0 100 R 0 0 1 0 P
+X C 3 100 200 100 D 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# tuer-steuerung-eagle-import_C-EU025-024X044
+#
+DEF tuer-steuerung-eagle-import_C-EU025-024X044 C 0 40 Y Y 1 L N
+F0 "C" 60 15 59 H V L BNN
+F1 "tuer-steuerung-eagle-import_C-EU025-024X044" 60 -185 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -80 -80 80 -60 1 0 0 F
+S -80 -40 80 -20 1 0 0 F
+P 2 1 0 0 0 -100 0 -80 N
+P 2 1 0 0 0 0 0 -20 N
+X 1 1 0 100 100 D 0 0 1 0 P
+X 2 2 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# tuer-steuerung-eagle-import_C-EU050-024X044
+#
+DEF tuer-steuerung-eagle-import_C-EU050-024X044 C 0 40 Y Y 1 L N
+F0 "C" 60 15 59 H V L BNN
+F1 "tuer-steuerung-eagle-import_C-EU050-024X044" 60 -185 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -80 -80 80 -60 1 0 0 F
+S -80 -40 80 -20 1 0 0 F
+P 2 1 0 0 0 -100 0 -80 N
+P 2 1 0 0 0 0 0 -20 N
+X 1 1 0 100 100 D 0 0 1 0 P
+X 2 2 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# tuer-steuerung-eagle-import_C-EU050-025X075
+#
+DEF tuer-steuerung-eagle-import_C-EU050-025X075 C 0 40 Y Y 1 L N
+F0 "C" 60 15 59 H V L BNN
+F1 "tuer-steuerung-eagle-import_C-EU050-025X075" 60 -185 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -80 -80 80 -60 1 0 0 F
+S -80 -40 80 -20 1 0 0 F
+P 2 1 0 0 0 -100 0 -80 N
+P 2 1 0 0 0 0 0 -20 N
+X 1 1 0 100 100 D 0 0 1 0 P
+X 2 2 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# tuer-steuerung-eagle-import_CPOL-EUTAP5-80
+#
+DEF tuer-steuerung-eagle-import_CPOL-EUTAP5-80 C 0 40 Y Y 1 L N
+F0 "C" 45 19 59 H V L BNN
+F1 "tuer-steuerung-eagle-import_CPOL-EUTAP5-80" 45 -181 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 900 -23 16 42 0 1 0 + Normal 0 L B
+S -65 -100 65 -65 1 0 0 F
+P 2 1 0 0 -60 -35 60 -35 N
+P 2 1 0 0 -60 0 -60 -35 N
+P 2 1 0 0 -60 0 60 0 N
+P 2 1 0 0 60 -35 60 0 N
+X + + 0 100 100 D 0 0 1 0 P
+X - - 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# tuer-steuerung-eagle-import_GND
+#
+DEF tuer-steuerung-eagle-import_GND #GND 0 40 Y Y 1 L P
+F0 "#GND" 0 0 50 H I C CNN
+F1 "tuer-steuerung-eagle-import_GND" -100 -100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -75 0 75 0 N
+X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# tuer-steuerung-eagle-import_L6203
+#
+DEF tuer-steuerung-eagle-import_L6203 IC 0 40 Y Y 1 L N
+F0 "IC" -500 350 59 H V L BNN
+F1 "tuer-steuerung-eagle-import_L6203" -500 -500 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 130 -360 51 0 1 0 GND Normal 0 L B
+T 0 150 210 51 0 1 0 VS Normal 0 L B
+P 2 1 0 0 -500 -400 -500 300 N
+P 2 1 0 0 -500 300 500 300 N
+P 2 1 0 0 500 -400 -500 -400 N
+P 2 1 0 0 500 300 500 -400 N
+X OUT2 1 600 -100 100 L 50 50 1 0 O
+X SENSE 10 -600 -200 100 R 50 50 1 0 I
+X ENABLE 11 -600 100 100 R 50 50 1 0 I
+X VS 2 200 400 100 D 50 0 1 0 W
+X OUT1 3 600 0 100 L 50 50 1 0 O
+X CBOOT1 4 600 100 100 L 50 50 1 0 I
+X IN1 5 -600 0 100 R 50 50 1 0 I
+X GND 6 200 -500 100 U 50 0 1 0 W
+X IN2 7 -600 -100 100 R 50 50 1 0 I
+X CBOOT2 8 600 -200 100 L 50 50 1 0 I
+X VREF 9 -600 200 100 R 50 50 1 0 I
+ENDDRAW
+ENDDEF
+#
+# tuer-steuerung-eagle-import_MEGA8-P
+#
+DEF tuer-steuerung-eagle-import_MEGA8-P IC 0 40 Y Y 1 L N
+F0 "IC" -700 -1400 59 H V L BNN
+F1 "tuer-steuerung-eagle-import_MEGA8-P" -700 1250 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -700 -1300 -700 1200 N
+P 2 1 0 0 -700 1200 800 1200 N
+P 2 1 0 0 800 -1300 -700 -1300 N
+P 2 1 0 0 800 1200 800 -1300 N
+X PC6(/RESET) 1 -900 1100 200 R 50 50 1 0 U I
+X PB7(XTAL2/TOSC2) 10 -900 200 200 R 50 50 1 0 U
+X PD5(T1) 11 1000 -300 200 L 50 50 1 0 U
+X PD6(AIN0) 12 1000 -400 200 L 50 50 1 0 U
+X PD7(AIN1) 13 1000 -500 200 L 50 50 1 0 U
+X PB0(ICP) 14 1000 -700 200 L 50 50 1 0 U
+X PB1(OC1A) 15 1000 -800 200 L 50 50 1 0 U
+X PB2(SS/OC1B) 16 1000 -900 200 L 50 50 1 0 U
+X PB3(MOSI/OC2) 17 1000 -1000 200 L 50 50 1 0 U
+X PB4(MISO) 18 1000 -1100 200 L 50 50 1 0 U
+X PB5(SCK) 19 1000 -1200 200 L 50 50 1 0 U
+X PD0(RXD) 2 1000 200 200 L 50 50 1 0 U
+X AVCC 20 -900 700 200 R 50 50 1 0 W
+X AREF 21 -900 800 200 R 50 50 1 0 P
+X GND 22 -900 900 200 R 50 50 1 0 W
+X PC0(ADC0) 23 1000 1100 200 L 50 50 1 0 U
+X PC1(ADC1) 24 1000 1000 200 L 50 50 1 0 U
+X PC2(ADC2) 25 1000 900 200 L 50 50 1 0 U
+X PC3(ADC3) 26 1000 800 200 L 50 50 1 0 U
+X PC4(ADC4/SDA) 27 1000 700 200 L 50 50 1 0 U
+X PC5(ADC5/SCL) 28 1000 600 200 L 50 50 1 0 U
+X PD1(TXD) 3 1000 100 200 L 50 50 1 0 U
+X PD2(INT0) 4 1000 0 200 L 50 50 1 0 U
+X PD3(INT1) 5 1000 -100 200 L 50 50 1 0 U
+X PD4(XCK/T0) 6 1000 -200 200 L 50 50 1 0 U
+X VCC@1 7 -900 -300 200 R 50 50 1 0 W
+X GND@1 8 -900 -100 200 R 50 50 1 0 W
+X PB6(XTAL1/TOSC1) 9 -900 400 200 R 50 50 1 0 U
+ENDDRAW
+ENDDEF
+#
+# tuer-steuerung-eagle-import_PSW_5
+#
+DEF ~tuer-steuerung-eagle-import_PSW_5 ~ 0 40 Y Y 1 L N
+F0 "" 0 0 50 H I C CNN
+F1 "tuer-steuerung-eagle-import_PSW_5" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -400 -200 400 -200 N
+P 2 1 0 0 -400 0 -400 -200 N
+P 2 1 0 0 400 -200 400 0 N
+P 2 1 0 0 400 0 -400 0 N
+X +12V +12V -300 0 200 D 50 50 1 0 U
+X +5V +5V 300 0 200 D 50 50 1 0 U
+X GND1 GND1 -100 0 200 D 50 50 1 0 U
+X GND2 GND2 100 0 200 D 50 50 1 0 U
+ENDDRAW
+ENDDEF
+#
+# tuer-steuerung-eagle-import_R-EU_0204_5
+#
+DEF tuer-steuerung-eagle-import_R-EU_0204_5 R 0 40 Y Y 1 L N
+F0 "R" -150 59 59 H V L BNN
+F1 "tuer-steuerung-eagle-import_R-EU_0204_5" -150 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 -35 -100 35 N
+P 2 1 0 0 -100 -35 100 -35 N
+P 2 1 0 0 100 -35 100 35 N
+P 2 1 0 0 100 35 -100 35 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# tuer-steuerung-eagle-import_R-EU_0207_5V
+#
+DEF tuer-steuerung-eagle-import_R-EU_0207_5V R 0 40 Y Y 1 L N
+F0 "R" -150 59 59 H V L BNN
+F1 "tuer-steuerung-eagle-import_R-EU_0207_5V" -150 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 -35 -100 35 N
+P 2 1 0 0 -100 -35 100 -35 N
+P 2 1 0 0 100 -35 100 35 N
+P 2 1 0 0 100 35 -100 35 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# tuer-steuerung-eagle-import_RIACON_101_2
+#
+DEF ~tuer-steuerung-eagle-import_RIACON_101_2 ~ 0 40 Y Y 1 L N
+F0 "" 0 0 50 H I C CNN
+F1 "tuer-steuerung-eagle-import_RIACON_101_2" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 -100 40 1 0 10 N
+C 0 0 40 1 0 10 N
+P 2 1 0 0 -100 -200 100 -200 N
+P 2 1 0 0 -100 -100 -100 -200 N
+P 2 1 0 0 -100 -100 0 -100 N
+P 2 1 0 0 -100 0 -100 -100 N
+P 2 1 0 0 -100 0 0 0 N
+P 2 1 0 0 -100 100 -100 0 N
+P 2 1 0 0 100 -200 100 100 N
+P 2 1 0 0 100 100 -100 100 N
+X 1 1 -200 0 100 R 50 0 1 0 P
+X 2 2 -200 -100 100 R 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# tuer-steuerung-eagle-import_RIACON_101_3
+#
+DEF ~tuer-steuerung-eagle-import_RIACON_101_3 ~ 0 40 Y Y 1 L N
+F0 "" 0 0 50 H I C CNN
+F1 "tuer-steuerung-eagle-import_RIACON_101_3" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 -100 40 1 0 10 N
+C 0 0 40 1 0 10 N
+C 0 100 40 1 0 10 N
+P 2 1 0 0 -100 -200 100 -200 N
+P 2 1 0 0 -100 200 -100 -200 N
+P 2 1 0 0 100 -200 100 200 N
+P 2 1 0 0 100 200 -100 200 N
+X 1 1 -200 100 200 R 50 0 1 0 P
+X 2 2 -200 0 200 R 50 0 1 0 P
+X 3 3 -200 -100 200 R 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# tuer-steuerung-eagle-import_RIACON_101_4
+#
+DEF ~tuer-steuerung-eagle-import_RIACON_101_4 ~ 0 40 Y Y 1 L N
+F0 "" 0 0 50 H I C CNN
+F1 "tuer-steuerung-eagle-import_RIACON_101_4" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 -100 40 1 0 10 N
+C 0 0 40 1 0 10 N
+C 0 100 40 1 0 10 N
+C 0 200 40 1 0 10 N
+P 2 1 0 0 -100 -200 100 -200 N
+P 2 1 0 0 -100 300 -100 -200 N
+P 2 1 0 0 100 -200 100 300 N
+P 2 1 0 0 100 300 -100 300 N
+X 1 1 -200 200 200 R 50 0 1 0 P
+X 2 2 -200 100 200 R 50 0 1 0 P
+X 3 3 -200 0 200 R 50 0 1 0 P
+X 4 4 -200 -100 200 R 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# tuer-steuerung-eagle-import_SCHOTTKY-DIODEDO35-7
+#
+DEF tuer-steuerung-eagle-import_SCHOTTKY-DIODEDO35-7 D 0 40 Y Y 1 L N
+F0 "D" -90 75 59 H V L BNN
+F1 "tuer-steuerung-eagle-import_SCHOTTKY-DIODEDO35-7" -90 -135 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -50 -50 50 0 N
+P 2 1 0 0 -50 50 -50 -50 N
+P 2 1 0 0 25 -40 25 -50 N
+P 2 1 0 0 50 -50 25 -50 N
+P 2 1 0 0 50 0 -50 50 N
+P 2 1 0 0 50 0 50 -50 N
+P 2 1 0 0 50 50 50 0 N
+P 2 1 0 0 75 50 50 50 N
+P 2 1 0 0 75 50 75 40 N
+X A A -100 0 100 R 0 0 1 0 P
+X C C 100 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# tuer-steuerung-eagle-import_SIL05-1A72
+#
+DEF ~tuer-steuerung-eagle-import_SIL05-1A72 ~ 0 40 Y Y 1 L N
+F0 "" 0 0 50 H I C CNN
+F1 "tuer-steuerung-eagle-import_SIL05-1A72" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -200 42 0 1 0 SIL05-1A72 Normal 0 L B
+P 2 1 0 0 -700 -200 -700 400 N
+P 2 1 0 0 -700 -200 -500 400 N
+P 2 1 0 0 -700 400 -500 400 N
+P 2 1 0 0 -500 -200 -700 -200 N
+P 2 1 0 0 -500 100 -500 -200 N
+P 2 1 0 0 -500 100 -50 100 N
+P 2 1 0 0 -500 400 -500 100 N
+P 2 1 0 0 -100 -100 -50 100 N
+P 2 1 0 0 -50 100 0 300 N
+X 1 P1 -100 500 200 D 50 50 1 0 U
+X 3 P3 -600 -400 200 U 50 50 1 0 U
+X 5 P5 -600 600 200 D 50 50 1 0 U
+X 7 P7 -100 -300 200 U 50 50 1 0 U
+ENDDRAW
+ENDDEF
+#
+# tuer-steuerung-eagle-import_VCC
+#
+DEF tuer-steuerung-eagle-import_VCC #SUPPLY 0 40 Y Y 1 L P
+F0 "#SUPPLY" 0 0 50 H I C CNN
+F1 "tuer-steuerung-eagle-import_VCC" -75 125 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 50 50 1 0 10 N
+X VCC 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# tuer-steuerung-eagle-import_VDD
+#
+DEF tuer-steuerung-eagle-import_VDD #SUPPLY 0 40 Y Y 1 L P
+F0 "#SUPPLY" 0 0 50 H I C CNN
+F1 "tuer-steuerung-eagle-import_VDD" -75 125 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 50 50 1 0 10 N
+X VDD 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# tuer-steuerung-eagle-import_XTAL_S
+#
+DEF tuer-steuerung-eagle-import_XTAL_S Q 0 40 Y Y 1 L N
+F0 "Q" -200 150 59 H V L BNN
+F1 "tuer-steuerung-eagle-import_XTAL_S" -200 -200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -90 100 -90 -100 N
+P 2 1 0 0 -50 100 -50 -100 N
+P 2 1 0 0 -50 100 55 100 N
+P 2 1 0 0 55 -100 -50 -100 N
+P 2 1 0 0 55 100 55 -100 N
+P 2 1 0 0 92 100 92 -100 N
+X 1 1 -200 0 100 R 50 0 1 0 P
+X 2 2 200 0 100 L 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library
