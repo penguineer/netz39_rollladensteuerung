@@ -1,0 +1,272 @@
+EESchema Schematic File Version 4
+LIBS:tuer-steuerungEvolved-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L L6203:L6203 IC?
+U 1 1 5BF1DEB4
+P 3600 2500
+AR Path="/5BF197FE/5BF1DEB4" Ref="IC?"  Part="1" 
+AR Path="/5BF1DE2A/5BF1DEB4" Ref="IC?"  Part="1" 
+F 0 "IC?" H 3600 2550 50  0000 C CNN
+F 1 "L6203" H 3600 2400 50  0000 C CNN
+F 2 "L6203:MULTIWATT-11" H 3600 2500 50  0001 L BNN
+F 3 "STMicroelectronics" H 3600 2500 50  0001 L BNN
+F 4 "Multiwatt-11 STMicroelectronics" H 3600 2500 50  0001 L BNN "Field4"
+F 5 "None" H 3600 2500 50  0001 L BNN "Field5"
+F 6 "L6203" H 3600 2500 50  0001 L BNN "Field6"
+F 7 "L6203 Series Dual Full Bridge 48 V 5 A 0.3 Ohm DMOS Driver - MULTIWATT-11" H 3600 2500 50  0001 L BNN "Field7"
+F 8 "Unavailable" H 3600 2500 50  0001 L BNN "Field8"
+	1    3600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5BF1DEBB
+P 3800 2050
+AR Path="/5BF197FE/5BF1DEBB" Ref="#PWR?"  Part="1" 
+AR Path="/5BF1DE2A/5BF1DEBB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3800 1900 50  0001 C CNN
+F 1 "+12V" H 3815 2223 50  0000 C CNN
+F 2 "" H 3800 2050 50  0001 C CNN
+F 3 "" H 3800 2050 50  0001 C CNN
+	1    3800 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2050 3800 2100
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5BF1DEC2
+P 3800 3050
+AR Path="/5BF197FE/5BF1DEC2" Ref="#PWR?"  Part="1" 
+AR Path="/5BF1DE2A/5BF1DEC2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3800 2850 50  0001 C CNN
+F 1 "GNDPWR" H 3804 2896 50  0000 C CNN
+F 2 "" H 3800 3000 50  0001 C CNN
+F 3 "" H 3800 3000 50  0001 C CNN
+	1    3800 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3000 3800 3050
+Wire Wire Line
+	3000 2400 2550 2400
+Wire Wire Line
+	3000 2500 2550 2500
+Wire Wire Line
+	3000 2600 2550 2600
+Wire Wire Line
+	3000 2700 2550 2700
+Wire Wire Line
+	4200 2600 4600 2600
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 5BF1E013
+P 4900 4250
+F 0 "J?" H 4927 4226 50  0000 L CNN
+F 1 "Motor Output" H 4850 4350 50  0000 L CNN
+F 2 "" H 4900 4250 50  0001 C CNN
+F 3 "~" H 4900 4250 50  0001 C CNN
+	1    4900 4250
+	0    1    1    0   
+$EndComp
+Text HLabel 2550 2400 0    50   Input ~ 0
+motor_enable
+Text HLabel 2550 2500 0    50   Input ~ 0
+motor_in1
+Text HLabel 2550 2600 0    50   Input ~ 0
+motor_in2
+Text HLabel 2550 2700 0    50   Input ~ 0
+motor_sense
+$Comp
+L power:+12V #PWR?
+U 1 1 5BF1E51C
+P 3250 3500
+AR Path="/5BF197FE/5BF1E51C" Ref="#PWR?"  Part="1" 
+AR Path="/5BF1DE2A/5BF1E51C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3250 3350 50  0001 C CNN
+F 1 "+12V" H 3265 3673 50  0000 C CNN
+F 2 "" H 3250 3500 50  0001 C CNN
+F 3 "" H 3250 3500 50  0001 C CNN
+	1    3250 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5BF1E52B
+P 3250 3800
+AR Path="/5BF197FE/5BF1E52B" Ref="#PWR?"  Part="1" 
+AR Path="/5BF1DE2A/5BF1E52B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3250 3600 50  0001 C CNN
+F 1 "GNDPWR" H 3254 3646 50  0000 C CNN
+F 2 "" H 3250 3750 50  0001 C CNN
+F 3 "" H 3250 3750 50  0001 C CNN
+	1    3250 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BF1E561
+P 3250 3650
+F 0 "C?" H 3365 3696 50  0000 L CNN
+F 1 "100n" H 3365 3605 50  0000 L CNN
+F 2 "" H 3288 3500 50  0001 C CNN
+F 3 "~" H 3250 3650 50  0001 C CNN
+	1    3250 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BF1EAD2
+P 3150 2050
+F 0 "C?" V 2898 2050 50  0000 C CNN
+F 1 "220n" V 2989 2050 50  0000 C CNN
+F 2 "" H 3188 1900 50  0001 C CNN
+F 3 "~" H 3150 2050 50  0001 C CNN
+	1    3150 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3000 2300 3000 2050
+Wire Wire Line
+	3300 2050 3800 2050
+Connection ~ 3800 2050
+$Comp
+L Device:D_Schottky D?
+U 1 1 5BF1F1EF
+P 5300 3950
+F 0 "D?" H 5300 4166 50  0000 C CNN
+F 1 "D_Schottky" H 5400 4050 50  0000 C CNN
+F 2 "" H 5300 3950 50  0001 C CNN
+F 3 "~" H 5300 3950 50  0001 C CNN
+	1    5300 3950
+	1    0    0    -1  
+$EndComp
+Text Notes 4450 3550 0    50   ~ 0
+Schottky diodes 2A min
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5BF1F8D0
+P 5650 4000
+AR Path="/5BF197FE/5BF1F8D0" Ref="#PWR?"  Part="1" 
+AR Path="/5BF1DE2A/5BF1F8D0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5650 3800 50  0001 C CNN
+F 1 "GNDPWR" H 5654 3846 50  0000 C CNN
+F 2 "" H 5650 3950 50  0001 C CNN
+F 3 "" H 5650 3950 50  0001 C CNN
+	1    5650 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3950 5650 3950
+Wire Wire Line
+	5650 3950 5650 4000
+$Comp
+L Device:D_Schottky D?
+U 1 1 5BF1F9FE
+P 4450 3950
+F 0 "D?" H 4450 3734 50  0000 C CNN
+F 1 "D_Schottky" H 4550 3850 50  0000 C CNN
+F 2 "" H 4450 3950 50  0001 C CNN
+F 3 "~" H 4450 3950 50  0001 C CNN
+	1    4450 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5BF1FAB1
+P 4300 4050
+AR Path="/5BF197FE/5BF1FAB1" Ref="#PWR?"  Part="1" 
+AR Path="/5BF1DE2A/5BF1FAB1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4300 3850 50  0001 C CNN
+F 1 "GNDPWR" H 4304 3896 50  0000 C CNN
+F 2 "" H 4300 4000 50  0001 C CNN
+F 3 "" H 4300 4000 50  0001 C CNN
+	1    4300 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3950 4300 4050
+$Comp
+L Device:C C?
+U 1 1 5BF1FDCF
+P 5350 2850
+F 0 "C?" H 5465 2896 50  0000 L CNN
+F 1 "15n" H 5465 2805 50  0000 L CNN
+F 2 "" H 5388 2700 50  0001 C CNN
+F 3 "~" H 5350 2850 50  0001 C CNN
+	1    5350 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2500 5150 2500
+Wire Wire Line
+	4200 2400 5350 2400
+Wire Wire Line
+	4600 2600 4600 3000
+Connection ~ 5150 3950
+Connection ~ 4600 3950
+$Comp
+L Device:C C?
+U 1 1 5BF20F36
+P 4300 2850
+F 0 "C?" H 4185 2804 50  0000 R CNN
+F 1 "15n" H 4185 2895 50  0000 R CNN
+F 2 "" H 4338 2700 50  0001 C CNN
+F 3 "~" H 4300 2850 50  0001 C CNN
+	1    4300 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4200 2700 4300 2700
+Wire Wire Line
+	4300 3000 4600 3000
+Connection ~ 4600 3000
+Wire Wire Line
+	4600 3000 4600 3950
+Wire Wire Line
+	5150 2500 5150 3000
+Wire Wire Line
+	5350 3000 5150 3000
+Connection ~ 5150 3000
+Wire Wire Line
+	5150 3000 5150 3950
+Wire Wire Line
+	5350 2400 5350 2700
+$Comp
+L Device:R R?
+U 1 1 5BF21781
+P 4900 3000
+F 0 "R?" V 5107 3000 50  0000 C CNN
+F 1 "10R" V 5016 3000 50  0000 C CNN
+F 2 "" V 4830 3000 50  0001 C CNN
+F 3 "~" H 4900 3000 50  0001 C CNN
+	1    4900 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5150 3000 5050 3000
+Wire Wire Line
+	4750 3000 4600 3000
+Wire Wire Line
+	4600 4050 4800 4050
+Wire Wire Line
+	4600 3950 4600 4050
+Wire Wire Line
+	5150 4050 4900 4050
+Wire Wire Line
+	5150 3950 5150 4050
+$EndSCHEMATC
