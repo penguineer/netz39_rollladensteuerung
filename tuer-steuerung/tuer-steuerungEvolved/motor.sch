@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:tuer-steuerungEvolved-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,11 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L L6203:L6203 IC?
+L tuer-steuerungEvolved-rescue:L6203-L6203 IC?
 U 1 1 5BF1DEB4
 P 3600 2500
 AR Path="/5BF197FE/5BF1DEB4" Ref="IC?"  Part="1" 
 AR Path="/5BF1DE2A/5BF1DEB4" Ref="IC?"  Part="1" 
+AR Path="/5BF1DEB4" Ref="IC?"  Part="1" 
 F 0 "IC?" H 3600 2550 50  0000 C CNN
 F 1 "L6203" H 3600 2400 50  0000 C CNN
 F 2 "L6203:MULTIWATT-11" H 3600 2500 50  0001 L BNN
