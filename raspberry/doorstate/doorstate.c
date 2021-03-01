@@ -86,12 +86,6 @@ void I2C_init(void) {
 
 #define I2C_ERR_INVALIDARGUMENT -2
 
-  union I2C_result {
-    unsigned char c[2];
-    unsigned short r;
-  };
-
-
 int I2C_command(const int fd, const char command, const char data) {
   // check parameter range
   if ((command < 0) || (command > 0x07))
@@ -105,7 +99,7 @@ int I2C_command(const int fd, const char command, const char data) {
   // build the I2C data byte
   // arguments have been checked, 
   // this cannot be negative or more than 8 bits
-  unsigned char send = (command << 4) + data; 
+  unsigned char send = (command << 4) + data;
   
   // calculate the parity
   char v = send;
@@ -117,28 +111,35 @@ int I2C_command(const int fd, const char command, const char data) {
   // set parity bit  
   send += (c << 7);
   
-  union I2C_result result;
-  result.r = 0;
+  uint8_t response = 0;
 
   // maximal number of tries
   int hops=20;
 
   // try for hops times until the result is not zero
-  while (!result.c[0] && --hops) {
+  while (!response && --hops) {
     // send command
-    result.r = wiringPiI2CReadReg16(fd, send);
+    if (wiringPiI2CWrite(fd, data)) {
+      syslog(LOG_ERR, "Could not write to SMBUS! (remainding tries: %d)", hops);
+      continue;
+    }
+
+    // read response
+    response = wiringPiI2CRead(fd);
+    const uint8_t inv = wiringPiI2CRead(fd);
 
     // check for transmission errors: 2nd byte is inverted 1st byte
-    const unsigned char c = ~result.c[0];
-    if (result.c[1] != c) 
+    const uint8_t c = ~inv;
+    if (response != c)
+      syslog(LOG_ERR, "Response inversion mismatch (%d vs. %d), retry ...", response, c);
       // if no match, reset the result
-      result.r = 0;
+      response = 0;
   }
   
   if (!hops)
     syslog(LOG_DEBUG, "Giving up transmission!\n");
   
-  return result.c[0];
+  return response;
 }
 
 ///// I3C stuff /////
